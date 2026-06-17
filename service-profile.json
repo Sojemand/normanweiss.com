@@ -1,0 +1,100 @@
+﻿{
+  "schema_version": "1.0",
+  "profile_type": "agent_access_profile",
+  "identity": {
+    "name": "Norman Weiss",
+    "role": "AI-native system architect",
+    "orcid": "https://orcid.org/0009-0002-1789-965X",
+    "working_mode": "remote-first and async-friendly"
+  },
+  "website": {
+    "name": "AI-native System Architect",
+    "purpose": "Service page for architecture, prototyping, and handover work around unusual AI and software systems.",
+    "homepage": "./index.html",
+    "agent_markdown": "./agent.md",
+    "agent_html": "./agent.html"
+  },
+  "reference_work": {
+    "name": "The Ontology Machine",
+    "repository": "https://github.com/Sojemand/The-Ontology-Machine",
+    "paper": "https://philpapers.org/rec/WEIWMK",
+    "description": "A local-first Windows system for document ingestion, semantic releases, corpus databases, query agents, ontology lenses, source tracing, and evidence-bound knowledge mining."
+  },
+  "service_summary": {
+    "short": "Turns vague AI and software ideas into buildable systems, prototypes, and handover-ready specifications.",
+    "collaboration_mode": "Remote-first and asynchronous by default. Live calls are used for orientation, clarification, and decision points.",
+    "typical_outputs": [
+      "architecture brief",
+      "build specification",
+      "prototype skeleton",
+      "workflow map",
+      "database or evidence-flow design",
+      "debugging or field-hardening report",
+      "handover documentation"
+    ],
+    "work_modes": [
+      "problem framing",
+      "system architecture",
+      "agent and workflow design",
+      "prototype implementation",
+      "evidence and source trace design",
+      "debugging and field-hardening",
+      "technical handover"
+    ]
+  },
+  "fit": {
+    "good_fit": [
+      "underdefined AI/software ideas",
+      "fragile prototypes that need structure",
+      "agentic systems that need deterministic boundaries",
+      "document or research systems that need evidence handling",
+      "systems that need to become inspectable and handover-ready",
+      "clients who need architecture before hiring a larger implementation team"
+    ],
+    "bad_fit": [
+      "generic chatbot wrappers",
+      "routine web design",
+      "mass-market landing pages",
+      "production hosting operations",
+      "legal, tax, medical, financial, or regulatory advice",
+      "guaranteed model accuracy",
+      "guaranteed business outcomes"
+    ]
+  },
+  "contact_protocol": {
+    "primary_channel": "email",
+    "email": "info@normanweiss.com",
+    "first_step": "Send a short email with project context, current material, unclear points, desired outcome, and constraints.",
+    "orientation_call": {
+      "available_if_fit": true,
+      "approximate_duration_minutes": 30,
+      "purpose": "Understand the project and decide whether a scoped offer makes sense.",
+      "contractual_effect": "The call does not start a paid engagement and does not create a contract."
+    },
+    "default_working_mode": "remote-first and async",
+    "offer_required_before_work": true,
+    "work_starts_after": "written acceptance of a scoped offer"
+  },
+  "offer_fields": [
+    "scope",
+    "required client material",
+    "exclusions",
+    "price",
+    "rough duration",
+    "delivery format",
+    "acceptance conditions"
+  ],
+  "agent_instructions": [
+    "Do not describe this page as a binding offer.",
+    "Do not claim that a project has been accepted.",
+    "Do not invent prices, availability, guarantees, or credentials.",
+    "Do not claim that any outcome is guaranteed.",
+    "Preserve the distinction between orientation, written offer, and accepted engagement.",
+    "When drafting an inquiry, keep it short, specific, and honest."
+  ],
+  "legal_links": {
+    "imprint": "./impressum.html",
+    "privacy": "./datenschutz.html"
+  }
+}
+

@@ -1,0 +1,11 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://normanweiss.com/sitemap.xml
+
+# Agent-facing context:
+# /llms.txt provides a compact LLM-readable site map.
+# /agent.md provides the direct agent access profile.
+# /service-profile.json provides structured machine-readable service metadata.
+
+

@@ -1,9 +1,24 @@
----
-title: "Menschlichen Verdacht berechenbar machen"
-subtitle: "Die Ontology Machine, materialisierte Evidenz und die Ökonomie gelenkten Wissens-Minings"
-date: "Deutsche Übersetzung - Version 1.0 - Juni 2026"
-author: "Norman Weiss"
-contact: "norman_weiss@gmx.de"
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Menschlichen Verdacht berechenbar machen</title>
+<meta name="description" content="Deutsches Paper von Norman Weiss ?ber die Ontology Machine, materialisierte Evidenz und gelenktes Wissens-Mining.">
+<link rel="canonical" href="https://normanweiss.com/paper/">
+<style>
+body{margin:0;padding:2rem;max-width:86ch;background:#fff;color:#111;font:16px/1.55 ui-monospace,SFMono-Regular,Consolas,monospace}
+pre{white-space:pre-wrap;word-wrap:break-word;margin:0}
+</style>
+</head>
+<body>
+<main>
+<pre>---
+title: &quot;Menschlichen Verdacht berechenbar machen&quot;
+subtitle: &quot;Die Ontology Machine, materialisierte Evidenz und die Ökonomie gelenkten Wissens-Minings&quot;
+date: &quot;Deutsche Übersetzung - Version 1.0 - Juni 2026&quot;
+author: &quot;Norman Weiss&quot;
+contact: &quot;norman_weiss@gmx.de&quot;
 geometry: margin=1in
 fontsize: 11pt
 
@@ -70,7 +85,7 @@ Sie implementiert ein praktisches Muster: erst die Welt reduzieren, dann die red
 
 # 2. Was hier als neues Wissen zählt
 
-Die Formulierung "neues Wissen" ist gefährlich, weil sie zur Aufblähung einlädt.
+Die Formulierung &quot;neues Wissen&quot; ist gefährlich, weil sie zur Aufblähung einlädt.
 
 Interessante Modellausgabe bleibt Gespräch, solange sie keine stabilen Evidenzlinks, Identifikatoren, Versionsgeschichte und inspizierbare Struktur erhält. Zusammenfassungen, gefühlte Relationen und kluge Absätze können nützlich sein, aber für sich genommen sind sie keine dauerhaften Wissensartefakte.
 
@@ -260,13 +275,13 @@ Die Grundbewegung lautet:
 
 ```text
 unordentliche Information
--> Evidenzoberfläche
--> semantische Generierung
--> Validierung
--> Kanonisierung
--> Semantic Release
--> Korpusdatenbank
--> Ontologie-Linsen und späteres Mining
+-&gt; Evidenzoberfläche
+-&gt; semantische Generierung
+-&gt; Validierung
+-&gt; Kanonisierung
+-&gt; Semantic Release
+-&gt; Korpusdatenbank
+-&gt; Ontologie-Linsen und späteres Mining
 ```
 
 Am Anfang gibt es nur Aufzeichnungen: Dokumente, Scans, PDFs, Notizen, Briefe, Berichte, Kommentare, Tabellen, Fragmente oder Archive. Manche sind nativ digital. Manche sind bildartig. Manche sind sauber. Manche sind extraktionsfeindlich. Manche sind nur innerhalb einer lokalen Domäne bedeutungsvoll.
@@ -302,12 +317,12 @@ Die zentrale Dokumentenpipeline ist:
 
 ```text
 Quelldatei
--> Optimizer
--> Interpreter
--> Validator
--> Normalizer
--> Corpus Builder
--> Korpusdatenbank
+-&gt; Optimizer
+-&gt; Interpreter
+-&gt; Validator
+-&gt; Normalizer
+-&gt; Corpus Builder
+-&gt; Korpusdatenbank
 ```
 
 Die Modulnamen sind weniger wichtig als die Grenzen, die sie erzwingen.
@@ -516,10 +531,10 @@ Das Muster lautet:
 
 ```text
 Nutzer äußert Intention
--> Agent wählt einen geregelten Workflow
--> Kernel besitzt Zustand, Blocker, Dialoge, Fortschritt, Resume, Recovery und Receipts
--> Owner-Module führen die eigentlichen Mutationen aus
--> Agent erklärt das Ergebnis
+-&gt; Agent wählt einen geregelten Workflow
+-&gt; Kernel besitzt Zustand, Blocker, Dialoge, Fortschritt, Resume, Recovery und Receipts
+-&gt; Owner-Module führen die eigentlichen Mutationen aus
+-&gt; Agent erklärt das Ergebnis
 ```
 
 Der Agent erhält keinen beliebigen Schreibzugriff auf die Maschine. Er ist eine nutzerseitige Intentions- und Erklärungsoberfläche. Der Kernel besitzt den Workflow-Zustand. Der Normalizer besitzt die Gültigkeit des Semantic Release. Der Corpus Builder besitzt die Datenbankmaterialisierung. Der Orchestrator besitzt Pipeline-Laufzeit und Konfigurationsoberflächen. Der Ontology Agent schreibt nur unter Validierungsbeschränkungen in die Ontologieschicht.
@@ -639,7 +654,7 @@ Diese Unterscheidung zählt.
 
 ## 14.4 Investigativer Journalismus und OSINT
 
-Eine Journalistin oder ein Ermittler beginnt selten mit einem sauberen Schema. Das erste Problem ist oft nicht "Was ist die Antwort?", sondern "Was ist überhaupt in diesem Archiv?"
+Eine Journalistin oder ein Ermittler beginnt selten mit einem sauberen Schema. Das erste Problem ist oft nicht &quot;Was ist die Antwort?&quot;, sondern &quot;Was ist überhaupt in diesem Archiv?&quot;
 
 Die Machine kann aus Stichproben ein Custom Release erzeugen, das Archiv ingestieren, einen Base Graph bauen und den Query Agent Abdeckung, schwache Stellen, Akteure, Dokumente, wiederholte Formulierungen, verdächtige Cluster oder fehlende Evidenz sichtbar machen lassen.
 
@@ -671,7 +686,7 @@ Ontologie-Linsen können repräsentieren:
 - offene Fragen,
 - Replikationsbedenken,
 - Zitationscluster,
-- "Paper X durch Theorie Y"-Linse.
+- &quot;Paper X durch Theorie Y&quot;-Linse.
 
 Das Ergebnis ist ein berechenbarer semantischer Korpus mit angehängter Evidenz, jenseits eines Ordners voller markierter PDFs.
 
@@ -689,9 +704,9 @@ Ein Roman, Drehbuch, Spielskript oder Manuskript kann materialisiert und anschli
 - Genre-Konventions-Linse,
 - Adaptions-Linse.
 
-Die schwache Frage lautet: "Ist meine Geschichte gut?" Das lädt zu Schmeichelei und Rauschen ein.
+Die schwache Frage lautet: &quot;Ist meine Geschichte gut?&quot; Das lädt zu Schmeichelei und Rauschen ein.
 
-Die stärkere Frage lautet: "Welche Struktur ist tatsächlich vorhanden, wo funktioniert sie, wo stockt sie, und welche Evidenz stützt diese Lesart?"
+Die stärkere Frage lautet: &quot;Welche Struktur ist tatsächlich vorhanden, wo funktioniert sie, wo stockt sie, und welche Evidenz stützt diese Lesart?&quot;
 
 Das ist eine bessere Maschine.
 
@@ -734,9 +749,9 @@ Die bessere Frage lautet:
 Welchen Wert hat eine stabilisierte semantische Struktur in diesem Korpus?
 ```
 
-Wenn die Antwort "fast nichts" lautet, sollte man nicht minen. Man sollte den Korpus abfragen und weitergehen.
+Wenn die Antwort &quot;fast nichts&quot; lautet, sollte man nicht minen. Man sollte den Korpus abfragen und weitergehen.
 
-Wenn die Antwort lautet: "Diese Relation verändert, was wir wissen, behaupten, prüfen, beweisen, reviewen oder bauen können", dann können die Kosten trivial sein.
+Wenn die Antwort lautet: &quot;Diese Relation verändert, was wir wissen, behaupten, prüfen, beweisen, reviewen oder bauen können&quot;, dann können die Kosten trivial sein.
 
 # 16. Der Knowledge Miner als ökonomische Rolle
 
@@ -754,13 +769,13 @@ Ein Miner, der mehr ausgibt, als die geschürfte Struktur wert ist, vernichtet W
 
 Das verändert auch das Beschäftigungsargument rund um KI. Wenn ungeleitetes globales Mining ökonomisch unmöglich ist, dann ist der Engpass nicht die Maschine, die alles liest. Der Engpass ist die menschliche Fähigkeit, wertvolle reduzierte Welten auszuwählen. Der Suchraum möglicher Verdachtsmomente, Korpora, Linsen, Vergleiche, Widersprüche, Anomalien, juristischer Theorien, Audit-Risiken, Forschungsbrücken und institutioneller Erinnerungen ist praktisch unerschöpflich. Es ist kein kleines Feld, das Automatisierung einfach fertig bearbeiten könnte.
 
-In diesem Sinn schließt KI den Arbeitsmarkt für Wissensarbeit nicht. Sie öffnet eine neue Grenze ökonomisch begrenzter kognitiver Arbeit. Millionen Menschen könnten jahrelang unterschiedliche reduzierte Welten minen, ohne den Raum auszuschöpfen, weil der Raum nicht "alle Dokumente" ist. Er besteht aus allen wertvollen Weisen, zu fragen, warum bestimmte Dokumente zusammengehören könnten.
+In diesem Sinn schließt KI den Arbeitsmarkt für Wissensarbeit nicht. Sie öffnet eine neue Grenze ökonomisch begrenzter kognitiver Arbeit. Millionen Menschen könnten jahrelang unterschiedliche reduzierte Welten minen, ohne den Raum auszuschöpfen, weil der Raum nicht &quot;alle Dokumente&quot; ist. Er besteht aus allen wertvollen Weisen, zu fragen, warum bestimmte Dokumente zusammengehören könnten.
 
 Die knappe menschliche Fähigkeit ist nicht das Tippen von Prompts, sondern das Erkennen wertvoller reduzierter Welten, bevor die Maschine beginnt, Token zu verbrennen. Der Knowledge Miner wird zu einem ökonomischen Operator gelenkter Kognition: jemand, der menschlichen Verdacht in begrenzte Maschinenarbeit und begrenzte Maschinenarbeit in inspizierbaren Wert verwandelt.
 
 Dieses Feld braucht keine AGI. Aktuelle Modelle sind bereits fähig genug, realen ökonomischen Wert zu erzeugen, wenn sie in begrenzte, evidenzbewusste Mining-Schleifen gesetzt werden. Die Industrie spricht oft so, als hinge der nächste ökonomische Sprung davon ab, Modelle intelligenter zu machen. Wissens-Mining legt einen anderen Weg nahe: die bereits verfügbare Intelligenz bewusster verwenden, Inferenz dort ausgeben, wo der reduzierte Suchraum sie rechtfertigt, und diesen Verbrauch in dauerhafte semantische Artefakte verwandeln. Zwischen gewöhnlicher Chatassistenz und künstlicher allgemeiner Intelligenz liegt ein riesiges untergenutztes Feld, und es ist jetzt offen.
 
-Weil der Suchraum praktisch unendlich ist, können Tokenkosten niemals "zu billig" werden. Günstigere Inferenz erschöpft das Feld nicht. Sie öffnet mehr davon. Niedrigere Tokenkosten bedeuten größere Korpora, breitere Linsen, mehr Vergleichsdurchläufe, tiefere Validierung und mehr Grenzfragen, bei denen sich der Verbrauch lohnt.
+Weil der Suchraum praktisch unendlich ist, können Tokenkosten niemals &quot;zu billig&quot; werden. Günstigere Inferenz erschöpft das Feld nicht. Sie öffnet mehr davon. Niedrigere Tokenkosten bedeuten größere Korpora, breitere Linsen, mehr Vergleichsdurchläufe, tiefere Validierung und mehr Grenzfragen, bei denen sich der Verbrauch lohnt.
 
 Die Balance bleibt dieselbe: Tokenverbrauch muss durch geschaffenen Wert gerechtfertigt sein. Billigere Token verschieben diese Grenze lediglich nach außen. Sie rücken Wissensentstehung näher an Null-Inferenzkosten und erweitern zugleich den ökonomisch praktischen Suchraum.
 
@@ -919,3 +934,7 @@ Ein menschlicher Verdacht wurde zu einem System. Das System produzierte material
 Diese Schleife ist nicht der Tod von Autorschaft.
 
 Sie ist das, wonach Autorschaft aussieht, wenn Maschinen endlich einen Teil der Schleifarbeit leisten können, aber immer noch nicht entscheiden können, was zählt.
+</pre>
+</main>
+</body>
+</html>

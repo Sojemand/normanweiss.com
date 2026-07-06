@@ -6,19 +6,33 @@
 
   var context = canvas.getContext("2d");
   var prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  var labels = [
+  var isGerman = document.documentElement.lang === "de";
+  var labels = isGerman ? [
+    "Problem",
+    "Grenzen",
+    "Evidenz",
+    "Workflow",
+    "Kernel",
+    "Schnittstelle",
+    "Lizenz",
+    "Installer",
+    "Support",
+    "Updates",
+    "Artefakte",
+    "Betrieb"
+  ] : [
     "Problem",
     "Constraints",
     "Evidence",
     "Workflow",
     "Kernel",
     "Boundary",
-    "Spec",
-    "Skeleton",
-    "Handover",
-    "Recovery",
+    "License",
+    "Installer",
+    "Support",
+    "Updates",
     "Artifacts",
-    "Decision Log"
+    "Operation"
   ];
   var colors = ["#a9efe2", "#dfb04d", "#e66d7d", "#83b9ff", "#b49cff"];
   var nodes = [];

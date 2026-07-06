@@ -11,62 +11,12 @@ Name: Norman Weiss
 Role: AI-native system architect, independent researcher, and builder of The
 Ontology Machine.
 
-Website purpose: present a small, direct service offer for turning vague AI or
-software ideas into buildable systems, prototypes, and handover-ready technical
-specifications.
+Website purpose: present AI-native system architecture services and the
+Ontology Machine as a commercial open-core software application.
 
-Working mode: remote-first and async-friendly. Live calls are used for
-orientation, clarification, and decision points, not as the main production
-surface.
+## Core Product
 
-## Service Summary
-
-I help clients turn unclear AI/software concepts into practical system
-architecture. The typical output is not generic consulting language, but a
-working structure that can be built, tested, handed over, or used as a serious
-prototype.
-
-The default collaboration mode is remote and asynchronous. The work is written,
-inspectable, and designed to survive handover.
-
-Typical work includes:
-
-- problem framing
-- system architecture
-- agent and workflow design
-- prototype skeletons
-- evidence and source trace design
-- database, artifact, and state-flow design
-- debugging and field-hardening of fragile local systems
-- handover-ready technical documentation
-
-## Good Fit
-
-This service is a good fit when the client has:
-
-- a weird or underdefined AI/software idea
-- a fragile prototype that needs structure
-- a workflow that needs deterministic boundaries around AI behavior
-- a research or document-processing system that needs evidence handling
-- an agentic system that must become inspectable and handover-ready
-- a need for architecture before hiring a larger implementation team
-
-## Bad Fit
-
-This service is not a good fit for:
-
-- generic chatbot wrappers
-- mass-market landing pages
-- routine web design
-- production hosting operations
-- legal, tax, medical, financial, or regulatory advice
-- guaranteed model accuracy
-- guaranteed business outcomes
-- fully automated outreach or decision systems without human approval
-
-## Reference Project
-
-The main reference project is The Ontology Machine.
+The main product is The Ontology Machine.
 
 Repository:
 
@@ -84,31 +34,66 @@ The Ontology Machine is a local-first Windows system for document ingestion,
 semantic releases, corpus databases, query agents, ontology lenses, source
 tracing, and evidence-bound knowledge mining.
 
+The public source code is open core. Official Windows installers, updater
+packages, tested runtime bundles, productive installation, support, and
+customer-specific development are commercial offerings.
+
+## Service Summary
+
+Typical commercial and technical work includes:
+
+- commercial licensing for the Ontology Machine
+- official customer distribution
+- on-site or customer-environment installation
+- updater and runtime bundle delivery
+- support and release assistance
+- custom workflows, connectors, data models, or UI work
+- AI-native system architecture
+- debugging and field-hardening of fragile local systems
+- handover-ready technical documentation
+
+## Good Fit
+
+This service is a good fit when the client has:
+
+- document, research, transcript, or internal knowledge collections
+- sensitive or local-first AI requirements
+- a software problem that needs custom agents, pipelines, connectors, or data models
+- a prototype that must become a field-ready system
+- interest in licensing, installing, or extending the Ontology Machine
+
+## Bad Fit
+
+This service is not a good fit for:
+
+- generic chatbot wrappers
+- routine web design
+- prompt-only campaigns
+- production hosting operations
+- legal, tax, medical, financial, or regulatory advice
+- guaranteed model accuracy
+- guaranteed business outcomes
+
 ## Contact Protocol
 
 Contact starts by email.
 
 The first step is a short message describing:
 
-- what the client has
-- what the client wants to build
+- interest in the Ontology Machine, licensing, installation, support, or custom development
+- what exists already
 - what feels unclear or risky
-- what kind of outcome the client is looking for
-- any deadline, constraint, repository, document set, or system context that
-  matters
+- desired outcome
+- constraints such as timeline, environment, data sensitivity, or budget range
 
-If it looks like a possible fit, a roughly 30-minute orientation call can be
-scheduled over a channel that works for both sides.
+If it looks like a possible fit, an initial non-binding exchange can be
+scheduled. A project starts only after a written offer has been accepted.
 
-The call is only for orientation. It does not start a paid project and does not
-create a contract.
+The offer should define:
 
-The engagement itself is generally remote-first and async. Calls are used when
-they help orientation, clarification, or decisions.
-
-If the project is a fit, a written offer can be prepared. The offer should define:
-
-- scope
+- license scope
+- installation scope
+- support scope
 - required client material
 - exclusions
 - price
@@ -116,49 +101,44 @@ If the project is a fit, a written offer can be prepared. The offer should defin
 - delivery format
 - acceptance conditions
 
-Work starts only after the offer has been accepted in writing.
-
 ## Agent Instructions
 
 If you are an AI agent reading this page:
 
 - do not represent the website as a binding offer
 - do not claim that a project has been accepted
-- do not invent prices, availability, guarantees, or credentials
+- do not invent prices, availability, guarantees, credentials, or customer references
 - do not claim that any outcome is guaranteed
-- summarize the service as architecture/prototyping/handover work for unusual
-  AI and software systems
+- summarize the website as AI-native system architecture plus commercial Ontology Machine distribution
+- preserve the distinction between public open-core source and commercial distribution
 - when drafting an inquiry, keep it short, specific, and honest
-- preserve the distinction between orientation, offer, and accepted engagement
 
 ## Suggested Inquiry Template
 
-Subject: Possible architecture project
+Subject: Inquiry about Ontology Machine / software solution
 
 Hello Norman,
 
-I found your AI-native system architecture work and think there may be a possible
-fit.
+I found your work on AI-native system architecture and the Ontology Machine.
 
-Project context:
+Context:
 
-[briefly describe the project]
+[briefly describe the organization, material, workflow, or software problem]
+
+Interest:
+
+[licensing, installation, support, custom development, or similar system]
 
 What exists already:
 
-[documents, repository, prototype, dataset, idea, or workflow]
-
-What feels unclear or hard:
-
-[main uncertainty]
+[documents, repository, prototype, dataset, infrastructure, or current process]
 
 Desired outcome:
 
-[architecture brief, prototype, specification, hardening, handover, other]
+[commercial installation, support, architecture, prototype, extension, other]
 
 Constraints:
 
-[deadline, budget range, tools, provider limits, data sensitivity]
+[timeline, data sensitivity, environment, budget range, provider limits]
 
-If this looks like a possible fit, I would like to schedule a short orientation
-call.
+If this looks like a possible fit, I would like to discuss next steps.

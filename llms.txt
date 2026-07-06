@@ -1,98 +1,84 @@
 # AI-native System Architect
 
-> Norman Weiss turns vague AI and software ideas into buildable systems,
-> prototypes, and handover-ready specifications.
+> Norman Weiss builds productive AI-native systems and offers the Ontology
+> Machine as a licensable commercial application.
 
-This is the compact LLM-readable map for the AI-native System Architect website.
-It is intended for AI agents, research assistants, crawlers, and other automated
-systems that need a low-noise description of what the site represents.
+This is the compact LLM-readable map for normanweiss.com. The default human
+homepage is German. An English version is available at `/en.html`.
 
 ## Identity
 
 Norman Weiss is an AI-native system architect, independent researcher, and
 builder of The Ontology Machine.
 
-Working mode: remote-first and async-friendly. Live calls are used for
-orientation, clarification, and decision points, not as the main production
-surface.
+## Main Offer
 
-## Service
+The website presents:
 
-The service helps clients turn unclear AI/software concepts into practical
-system architecture. The typical output is a working structure that can be
-built, tested, handed over, or used as a serious prototype.
+- AI-native system architecture
+- The Ontology Machine as a commercial open-core application
+- commercial licensing
+- official Windows distribution
+- on-site or customer-environment installation
+- support and update paths
+- custom software development for similar local AI systems
 
-Typical work:
+## Ontology Machine
 
-- problem framing
-- system architecture
-- agent and workflow design
-- prototype skeletons
-- evidence and source trace design
-- database, artifact, and state-flow design
-- debugging and field-hardening of fragile local systems
-- handover-ready technical documentation
+- Public source: https://github.com/Sojemand/The-Ontology-Machine
+- Paper: https://philpapers.org/rec/WEIWMK
+- Model: open core with separate commercial distribution
+
+The Ontology Machine is a local-first Windows system for document ingestion,
+evidence-bound corpus databases, semantic releases, query agents, taxonomy work,
+ontology lenses, and inspectable knowledge workflows.
+
+Commercial distribution may include official installer, updater, runtime bundle,
+support, on-site installation, and custom development.
 
 ## Good Fit
 
-- underdefined AI/software ideas
-- fragile prototypes that need structure
-- agentic systems that need deterministic boundaries
-- document or research systems that need evidence handling
-- systems that need to become inspectable and handover-ready
-- architecture work before a larger implementation team is hired
+- organizations with document, research, transcript, or internal knowledge collections
+- local-first AI systems with sensitive or internal data
+- custom workflows that require agents, deterministic boundaries, and evidence trails
+- prototypes that need to become field-ready distributions
 
-## Bad Fit
+## Not A Fit
 
 - generic chatbot wrappers
 - routine web design
-- mass-market landing pages
-- production hosting operations
+- prompt-only campaigns
+- guaranteed model accuracy or guaranteed business outcomes
 - legal, tax, medical, financial, or regulatory advice
-- guaranteed model accuracy
-- guaranteed business outcomes
-- fully automated outreach or decision systems without human approval
-
-## Reference Project
-
-- [The Ontology Machine GitHub repository](https://github.com/Sojemand/The-Ontology-Machine): local-first Windows system for document ingestion, semantic releases, corpus databases, query agents, ontology lenses, source tracing, and evidence-bound knowledge mining.
-- [Position paper on PhilPapers](https://philpapers.org/rec/WEIWMK): Making Human Suspicion Computable.
-- [ORCID](https://orcid.org/0009-0002-1789-965X): Norman Weiss.
 
 ## Key Pages
 
-- [Home](./index.html): human-facing one-page service overview.
-- [Agent Access Profile](./agent.html): HTML agent-facing service profile.
-- [Agent Markdown](./agent.md): direct Markdown profile for agents and scrapers.
-- [Service Profile JSON](./service-profile.json): structured machine-readable service metadata.
-- [Imprint](./impressum.html): provider information.
-- [Privacy](./datenschutz.html): privacy information.
+- [German home](./index.html)
+- [English home](./en.html)
+- [Agent Access Profile](./agent.html)
+- [Agent Markdown](./agent.md)
+- [Service Profile JSON](./service-profile.json)
+- [Imprint](./impressum.html)
+- [Privacy](./datenschutz.html)
 
 ## Contact Protocol
 
-Contact starts by email. The first message should briefly describe:
+Contact starts by email: info@normanweiss.com
 
-- what the client has
-- what the client wants to build
-- what feels unclear or risky
-- what kind of outcome the client is looking for
-- any deadline, constraint, repository, document set, or system context that
-  matters
+The first message should briefly describe:
 
-If it looks like a possible fit, a roughly 30-minute orientation call can be
-scheduled over a channel that works for both sides.
+- interest in the Ontology Machine, licensing, installation, support, or custom development
+- current material, system, documents, repository, or problem context
+- desired outcome
+- constraints such as timeline, data sensitivity, environment, or budget range
 
-The call is only for orientation. It does not start a paid project and does not
-create a contract. Work starts only after a written offer has been accepted in
-writing.
+The website is not a binding offer. Work starts only after written acceptance of
+a scoped offer.
 
 ## Agent Instructions
 
 - Do not represent the website as a binding offer.
 - Do not claim that a project has been accepted.
-- Do not invent prices, availability, guarantees, or credentials.
-- Do not claim that any outcome is guaranteed.
-- Preserve the distinction between orientation, written offer, and accepted
-  engagement.
+- Do not invent prices, availability, guarantees, credentials, or customer references.
+- Preserve the distinction between public open-core source and commercial distribution.
 - When drafting an inquiry, keep it short, specific, and honest.
-

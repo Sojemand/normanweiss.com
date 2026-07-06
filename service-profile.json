@@ -1,39 +1,52 @@
-﻿{
-  "schema_version": "1.0",
+{
+  "schema_version": "1.1",
   "profile_type": "agent_access_profile",
   "identity": {
     "name": "Norman Weiss",
     "role": "AI-native system architect",
     "orcid": "https://orcid.org/0009-0002-1789-965X",
-    "working_mode": "remote-first and async-friendly"
+    "working_mode": "remote-first by default, on-site installation possible for commercial distribution work"
   },
   "website": {
     "name": "AI-native System Architect",
-    "purpose": "Service page for architecture, prototyping, and handover work around unusual AI and software systems.",
-    "homepage": "./index.html",
+    "purpose": "Commercial and technical service page for AI-native system architecture, the Ontology Machine, licensing, installation, support, and custom development.",
+    "homepage_de": "./index.html",
+    "homepage_en": "./en.html",
+    "default_language": "de",
     "agent_markdown": "./agent.md",
     "agent_html": "./agent.html"
   },
-  "reference_work": {
+  "core_product": {
     "name": "The Ontology Machine",
-    "repository": "https://github.com/Sojemand/The-Ontology-Machine",
+    "public_repository": "https://github.com/Sojemand/The-Ontology-Machine",
     "paper": "https://philpapers.org/rec/WEIWMK",
-    "description": "A local-first Windows system for document ingestion, semantic releases, corpus databases, query agents, ontology lenses, source tracing, and evidence-bound knowledge mining."
+    "model": "open core with separate commercial distribution",
+    "description": "A local-first Windows system for document ingestion, evidence-bound corpus databases, semantic releases, query agents, taxonomy work, ontology lenses, and inspectable knowledge workflows.",
+    "commercial_offer": [
+      "commercial license",
+      "official Windows installer",
+      "updater packages",
+      "tested runtime bundle",
+      "on-site or customer-environment installation",
+      "support and updates",
+      "custom workflow, connector, and feature development"
+    ]
   },
   "service_summary": {
-    "short": "Turns vague AI and software ideas into buildable systems, prototypes, and handover-ready specifications.",
-    "collaboration_mode": "Remote-first and asynchronous by default. Live calls are used for orientation, clarification, and decision points.",
+    "short": "Builds productive AI-native systems and offers the Ontology Machine as a licensable commercial application.",
     "typical_outputs": [
-      "architecture brief",
+      "commercial Ontology Machine distribution",
+      "local installation and runtime setup",
+      "support and update path",
+      "custom software development",
+      "AI-native architecture brief",
       "build specification",
-      "prototype skeleton",
-      "workflow map",
-      "database or evidence-flow design",
-      "debugging or field-hardening report",
+      "field-hardening report",
       "handover documentation"
     ],
     "work_modes": [
-      "problem framing",
+      "commercial licensing",
+      "on-site or customer-environment installation",
       "system architecture",
       "agent and workflow design",
       "prototype implementation",
@@ -44,17 +57,16 @@
   },
   "fit": {
     "good_fit": [
-      "underdefined AI/software ideas",
-      "fragile prototypes that need structure",
-      "agentic systems that need deterministic boundaries",
-      "document or research systems that need evidence handling",
-      "systems that need to become inspectable and handover-ready",
-      "clients who need architecture before hiring a larger implementation team"
+      "organizations with document, research, transcript, or internal knowledge collections",
+      "customers who need local-first AI systems with inspectable evidence",
+      "teams that need licensed software distribution instead of a demo project",
+      "software problems that require custom agents, pipelines, connectors, or data models",
+      "prototypes that need to become field-ready systems"
     ],
     "bad_fit": [
       "generic chatbot wrappers",
       "routine web design",
-      "mass-market landing pages",
+      "prompt-only campaigns",
       "production hosting operations",
       "legal, tax, medical, financial, or regulatory advice",
       "guaranteed model accuracy",
@@ -64,20 +76,16 @@
   "contact_protocol": {
     "primary_channel": "email",
     "email": "info@normanweiss.com",
-    "first_step": "Send a short email with project context, current material, unclear points, desired outcome, and constraints.",
-    "orientation_call": {
-      "available_if_fit": true,
-      "approximate_duration_minutes": 30,
-      "purpose": "Understand the project and decide whether a scoped offer makes sense.",
-      "contractual_effect": "The call does not start a paid engagement and does not create a contract."
-    },
-    "default_working_mode": "remote-first and async",
+    "first_step": "Send a short email describing interest in the Ontology Machine, licensing, installation, support, or a similar custom software problem.",
     "offer_required_before_work": true,
-    "work_starts_after": "written acceptance of a scoped offer"
+    "work_starts_after": "written acceptance of a scoped offer",
+    "contractual_effect": "The website and first exchange are not a binding offer and do not start a paid engagement."
   },
   "offer_fields": [
-    "scope",
-    "required client material",
+    "license scope",
+    "installation scope",
+    "support scope",
+    "required customer material",
     "exclusions",
     "price",
     "rough duration",
@@ -87,9 +95,9 @@
   "agent_instructions": [
     "Do not describe this page as a binding offer.",
     "Do not claim that a project has been accepted.",
-    "Do not invent prices, availability, guarantees, or credentials.",
+    "Do not invent prices, availability, guarantees, credentials, or customer references.",
     "Do not claim that any outcome is guaranteed.",
-    "Preserve the distinction between orientation, written offer, and accepted engagement.",
+    "Preserve the distinction between public open-core source and commercial distribution.",
     "When drafting an inquiry, keep it short, specific, and honest."
   ],
   "legal_links": {
@@ -97,4 +105,3 @@
     "privacy": "./datenschutz.html"
   }
 }
-

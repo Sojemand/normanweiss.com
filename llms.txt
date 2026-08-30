@@ -60,6 +60,8 @@ support, on-site installation, and custom development.
 - [Service Profile JSON](./service-profile.json)
 - [Imprint](./impressum.html)
 - [Privacy](./datenschutz.html)
+- [Lost Fund Recovery Project support](./support/)
+- [The Match Finder Project support](./support/match-finder/)
 
 ## Contact Protocol
 
